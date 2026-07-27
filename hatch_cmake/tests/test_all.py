@@ -1,4 +1,4 @@
-from hatch_cmake import *  # noqa
+from hatch_cmake import *
 
 
 def test_all():
