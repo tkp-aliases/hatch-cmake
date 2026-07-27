@@ -1,12 +1,12 @@
 # Changes here will be overwritten by Copier
-_commit: c2ea129
+_commit: b2a4844
 _src_path: https://github.com/python-project-templates/base.git
 add_docs: false
 add_extension: python
 add_wiki: false
 email: t.paine154@gmail.com
-github: python-project-templates
-project_description: Hatch plugin for CMake/C++ builds
+github: tkp-aliases
+project_description: Alias for hatch-cpp
 project_name: hatch cmake
 python_version_primary: '3.11'
 team: the hatch-cmake authors

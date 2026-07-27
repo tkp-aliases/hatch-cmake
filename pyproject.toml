@@ -9,19 +9,12 @@ name = "hatch-cmake"
 authors = [
     {name = "the hatch-cmake authors", email = "t.paine154@gmail.com"},
 ]
-description = "Hatch plugin for CMake/C++ builds"
+description = "Alias for hatch-cpp"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 version = "0.1.0"
 requires-python = ">=3.11"
-keywords = [
-    "hatch",
-    "python",
-    "build",
-    "cpp",
-    "c++",
-    "cmake",
-]
+keywords = []
 
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -35,9 +28,7 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 
-dependencies = [
-    "hatch-cpp",
-]
+dependencies = []
 
 [project.optional-dependencies]
 develop = [
@@ -60,8 +51,8 @@ develop = [
 [project.scripts]
 
 [project.urls]
-Repository = "https://github.com/python-project-templates/hatch-cmake"
-Homepage = "https://github.com/python-project-templates/hatch-cmake"
+Repository = "https://github.com/tkp-aliases/hatch-cmake"
+Homepage = "https://github.com/tkp-aliases/hatch-cmake"
 
 [tool.bumpversion]
 current_version = "0.1.0"
