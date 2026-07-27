@@ -28,7 +28,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 
-dependencies = []
+dependencies = [
+    "hatch-cpp",
+]
 
 [project.optional-dependencies]
 develop = [
